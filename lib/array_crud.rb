@@ -9,16 +9,18 @@ end
 
 def add_element_to_end_of_array(array, element)
 colors=['green', 'yellow','purple', 'pink']
-colors>>'blue'
+
+colors >>'blue
+
 end
 
 def add_element_to_start_of_array(array, element)
-colors=['green', 'yellow','purple', 'pink']
-colors.unshift ('green')
+colors = ['green', 'yellow','purple', 'pink']
+colors.unshift ('')
 end
 
 def remove_element_from_end_of_array(array)
-  colors=['green', 'yellow','purple', 'pink']
+  colors=['green', 'yellow','purple', 'pink',]
 pink = colors.pop
 end
 
