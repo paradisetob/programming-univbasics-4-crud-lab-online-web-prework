@@ -12,15 +12,15 @@ colors>>'blue'
 end
 
 def add_element_to_start_of_array(array, element)
-colors.unshift('green')
+colors.unshift ('green')
 end
 
 def remove_element_from_end_of_array(array)
-pink=colors.pop
+pink = colors.pop
 end
 
 def remove_element_from_start_of_array(array)
-
+green = colors.shift
 end
 
 def retrieve_element_from_index(array, index_number)
