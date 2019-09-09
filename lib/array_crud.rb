@@ -36,5 +36,5 @@ colors[4]
 end
 
 def update_element_from_index(array, index_number, element)
-
+colors[2]=purple
 end
